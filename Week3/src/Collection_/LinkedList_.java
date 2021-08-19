@@ -11,13 +11,22 @@ class  LinkedList_{
 	        public static void main(String [] args){
 	           
 	           
-	          List<Integer> arr = new  LinkedList<>();
+	        	  LinkedList<Integer> arr = new  LinkedList<>();
 	          
 	              
 	             arr.add(5);
 	              arr.add(10);
 	               arr.add(15);
 	                arr.add(20);
+	                
+	                
+	                arr.addFirst(33);
+	                
+	                arr.addLast(33);
+	                
+	           
+	              
+	              
 	                 System.out.println(arr);  
 	                 
 	             
@@ -37,6 +46,20 @@ class  LinkedList_{
 	            
 	              
 	              System.out.println( arr.contains(55)); 
+	              
+	              arr.removeFirst();
+	              System.out.println(arr);   
+	              
+	              
+	              arr.removeLast();
+	              System.out.println(arr);   
+	              
+	              
+	              
+	              arr.removeFirstOccurrence(4);
+	              
+	              arr.removeLastOccurrence(4);
+	              
 	              
 	              arr.remove(3);
 	              

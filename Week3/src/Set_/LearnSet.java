@@ -29,10 +29,20 @@ class LearnSet{
                  
                  System.out.println(set.isEmpty()); 
                  
+               
+                Iterator<Integer>it = set.iterator();
+                
+                while(it.hasNext()){
+                     System.out.print(it.next()+" "); 
+               
+     	    
+     	       }
+                System.out.println();  
+                
+     	       
                 set.clear();
                 System.out.println(set);  
                  
-                
        
          
    }

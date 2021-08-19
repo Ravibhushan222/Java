@@ -1,5 +1,6 @@
 package Queue_;
 import java.util.*;
+import java.util.LinkedList;
 import java.io.*;
 
 
@@ -30,6 +31,11 @@ class LinkListt{
             System.out.println(que.peek());
             
            que.add(5);
+           
+          
+     
+           
+           
              System.out.println(que);   
            System.out.println(que.element());
            que.remove();

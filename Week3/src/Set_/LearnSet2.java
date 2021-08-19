@@ -18,6 +18,7 @@ public class LearnSet2 {
 	                 
 	                 set.remove(15);
 	                 System.out.println(set);  
+	                
 	                 
 	                 System.out.println(set.contains(100));   
 	                 

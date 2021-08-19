@@ -48,7 +48,7 @@ public class CollectionClass {
            System.out.println (  Collections.binarySearch(arr, 55));
              
            List<Integer> arr2 = new  LinkedList<>();
-           arr2.add(5);
+             arr2.add(5);
            System.out.println(
                    Collections.disjoint(arr, arr2));
     

@@ -51,8 +51,13 @@ class  Array_deque{
           
             
            que.add(5);
+           
+           que.addFirst(8);
+           
+           que.addLast(9);
+           
              System.out.println(que);   
-           System.out.println(que.element());
+           System.out.println(que.element()); 
            que.remove();
             System.out.println(que);   
           
