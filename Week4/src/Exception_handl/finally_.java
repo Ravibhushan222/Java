@@ -8,10 +8,10 @@ public class finally_ {
 		  int j = 0;
 		  
 		  
-		  
+		 // int k =i/j;
 		  
 		  try {
-			  int k =i/j;
+			  int m=i/j;
 			  
 		  }
 			  

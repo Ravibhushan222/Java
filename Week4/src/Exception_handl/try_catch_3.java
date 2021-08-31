@@ -23,7 +23,7 @@ public class try_catch_3 {
 		  
 	  }
 		  
-		  
+		  System.out.println("grk"); 
 		 
 		  
 		  

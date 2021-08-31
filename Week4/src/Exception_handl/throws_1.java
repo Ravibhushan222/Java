@@ -26,6 +26,8 @@ public class throws_1 {
 			{
 				System.out.println("caught in main.");
 			}
+			
+			System.out.println("hii");
 		}
 	}
 
