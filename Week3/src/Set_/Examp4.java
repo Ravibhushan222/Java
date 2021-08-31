@@ -15,25 +15,24 @@ public class Examp4 {
 		                set.add(20);
 		                 System.out.println(set);  
 		            
-		                 
-		                 System.out.println(set.first());  
+	                 
+	                 System.out.println(set.first());  
 		                 System.out.println(set.last());  
-				            
-		                 
-		                 
-		                 set.remove(15);
+			            
+	                 
+                 
+	                 set.remove(15);
 		                 System.out.println(set);  
 		                
 		                 
 		                 System.out.println(set.contains(100));   
 		                 
-		                 System.out.println(set.isEmpty()); 
-		                 
+	                 System.out.println(set.isEmpty()); 
+	                 		                
 		                
+		               System.out.println(set.subSet(2, 15));  
 		                
-		                System.out.println(set.subSet(2, 15));  
-		                
-		                System.out.println(set.tailSet(2));  
+		                System.out.println(set.tailSet(6));  
 		                
 		                set.clear();
 		                System.out.println(set);  

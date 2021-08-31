@@ -37,6 +37,7 @@ class  LinkedList_{
 	                   System.out.println(arr.get(i));   
 	              }
 	              
+	              
 	              arr.set(3,55);
 	              
 	              for(Integer x : arr){
@@ -76,7 +77,7 @@ class  LinkedList_{
 	         arr1.addAll(arr);
 	         System.out.println(arr1); 
 	         
-          arr1.clear();
+            arr1.clear();
            System.out.println(arr1); 
            
            System.out.println(arr1.isEmpty()); 

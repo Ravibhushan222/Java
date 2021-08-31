@@ -11,17 +11,21 @@ class Stackk{
       
       
       Stack<String>name = new Stack<>();
+      
       name.push("ravi");
        name.push("bhushan");
         name.push("singh");
          name.push("mani");
       
+         name.add("Ra");
+         
         System.out.println(name);  
         
           System.out.println(name.peek());  
           
           
           name.pop();
+          
           System.out.println(name.peek()); 
           
          

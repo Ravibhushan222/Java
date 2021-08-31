@@ -25,20 +25,20 @@ class  Examp5{
 			              
 			              
 			                 mp.put(4,"Rav");
-			                 
+		                 
 			                 
 			                   System.out.println(mp);  
 			                   
-			              System.out.println(mp.descendingMap());  
-			              System.out.println(mp.descendingKeySet());  
+			              System.out.println(mp.descendingMap());  			              
+		              System.out.println(mp.descendingKeySet());  
 			                   
 			                     
 			                   
 			                   
-			                    System.out.println(mp.firstEntry());  
-			                    
+		                    System.out.println(mp.firstEntry());  
+		                    
 			                     System.out.println(mp.lastEntry());  
-	                     
+                    
 	                     
 	                
 	                      System.out.println(mp.lowerKey(9));
@@ -47,7 +47,7 @@ class  Examp5{
 	                      
 	                        
 	                
-     
+    
 	             System.out.println(mp.pollFirstEntry());  
 	             
 	              System.out.println(mp); 
@@ -58,10 +58,7 @@ class  Examp5{
 	                    System.out.println(mp);  
 	                    
 	                    
-	                        System.out.println(mp.floorEntry(4));
-	                            
-	                        System.out.println(mp.ceilingEntry(4));      
-	                 
+	                       
 	                   
 	           
 	        }

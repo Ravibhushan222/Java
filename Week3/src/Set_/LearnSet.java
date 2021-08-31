@@ -13,7 +13,8 @@ class LearnSet{
      public static void main(String [] args){
       
       Set<Integer>set = new HashSet<>();
-       set.add(5);
+      
+          set.add(5);
               set.add(10);
                set.add(15);
                 set.add(20);

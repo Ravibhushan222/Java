@@ -21,7 +21,7 @@ public class Diff_Iterator_listiterator {
 			Iterator itr = list.iterator();
 
 			
-			System.out.println("Has Next traverse: ");
+		System.out.println("Has Next traverse: ");
 
 			while (itr.hasNext())
 				System.out.print(itr.next() + " ");

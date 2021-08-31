@@ -10,13 +10,17 @@ public class LinkedHash {
 	       
 	       
 	    	Map<Integer, String> mp=new  LinkedHashMap<Integer, String>();  	          
-	       mp.put(1,"Ravi");
+	       
+	    	mp.put(1,"Ravi");
 	        mp.put(10,"Bhuahsan");
 	         mp.put(9,"Singh");
 	          mp.put(5,"Ra");
 	          
 	          
 	             mp.put(4,"Rav");
+	             
+	             System.out.println(mp); 
+	 	        
 	             
 	             if(! mp.containsKey(2)){
 	                  mp.put(2,"Bhuahsan");
@@ -40,6 +44,7 @@ public class LinkedHash {
 	     for (Map.Entry<Integer, String> x : mp.entrySet()){
 	           
 	             System.out.println(x);  
+	             
 	           int key = x.getKey();
 	           
 	           String value = x.getValue();

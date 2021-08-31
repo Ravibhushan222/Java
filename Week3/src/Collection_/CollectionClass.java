@@ -30,6 +30,7 @@ public class CollectionClass {
            System.out.println(Collections.min(arr)); 
            
            System.out.println(Collections.max(arr)); 
+           
            System.out.println(Collections.frequency(arr, 5)); 
 
            Collections.sort(arr);
@@ -42,8 +43,6 @@ public class CollectionClass {
            System.out.println(arr); 
            
            
-           Collections.addAll(arr, 55,77,88);
-           System.out.println(arr); 
           
            System.out.println (  Collections.binarySearch(arr, 55));
              

@@ -13,32 +13,38 @@ class  Array_deque{
       
       
        ArrayDeque<Integer>que = new ArrayDeque<>();
+       
          que.offer(1);
+         
           que.offerFirst(131);
+          
            que.offerLast(141);
           
            que.offer(15);
+           
            System.out.print(que);
             System.out.println();  
             
-            System.out.println(que.peek());
+           System.out.println(que.peek());
+           
             System.out.println(que.peekFirst());
-            System.out.println(que.peekLast());
+            
+           System.out.println(que.peekLast());
             
             
           
            
            
            System.out.println(que.poll());  
-           System.out.print(que);
+         System.out.print(que);
             System.out.println();   
-            
-            
-            
+           
+           
+           
             
             System.out.println(que.pollFirst());
-            System.out.print(que);
-             System.out.println();  
+           System.out.print(que);
+            System.out.println();  
              
             
              

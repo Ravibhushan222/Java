@@ -19,18 +19,14 @@ class  ArrayList_examp{
 	               arr.add(15);
 	                arr.add(20);
 	                
-	                 System.out.println(arr);  
+	                System.out.println(arr);  
 	                 
 	             
 	            System.out.println(arr.get(2));   
 	            
-	              for(int i=0;i<arr.size();i++)
-	              {
-	                   System.out.print(arr.get(i)); 
-	                   System.out.print(" ");   
-	              }
-	              System.out.println();   
-	              arr.set(3,55);
+	              
+              
+	              arr.set(2,55);
 	              
 	              for(Integer x : arr){
 	                   System.out.print(x);  

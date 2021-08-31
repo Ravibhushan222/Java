@@ -22,6 +22,7 @@ public class Examp {
 	                set.add(20);
 	                set.add(20);
 	                set.add(20);
+	                
 	                 System.out.println(set);  
 	                 
 	                 
